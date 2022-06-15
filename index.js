@@ -1,6 +1,4 @@
 // Add your code here
-let name=Paul 
-let email=Paul.kiplagat@student.moringaschool.com
 function submitData( name, email ) {
     return fetch( 'http://localhost:3000/users', {
         method: "POST",
